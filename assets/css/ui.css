@@ -1,0 +1,71 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  background-color: white;
+}
+
+/* Header */
+
+.bg-primary {
+  background-color: white !important;
+}
+
+.register-photo{
+  margin-top: -70px;
+  background: white !important;
+}
+
+.form-container {
+  margin-top: -77px !important;
+}
+
+/* Titulo */
+
+header.masthead h1 {
+  font-size: 50px !important;
+  color: rgb(248, 192, 0);
+  text-decoration: none;
+  margin-top: -13px !important;
+}
+
+/* Container Buttons */
+
+#buttons {
+  margin-top: -19px !important;
+}
+
+/* Estilo do botão */
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) .align-items-center {
+  height: 54px;
+  font-size: 30px;
+}
+
+.add {
+  width: 500px;
+  background-color: #dc3c4d;
+}
+
+.add:hover {
+  background-color: #f46272;
+  text-decoration: none;
+  color: white;
+}
+
+.add:focus {
+  background-color: #f46272;
+  text-decoration: none;
+  color: orange;
+}
+
+@media only screen and (max-width: 600px) {
+  header.masthead h1 {
+    font-size: 33px !important;
+    margin-top: -8px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .add {
+    width: 100%;
+  }
+}
+
